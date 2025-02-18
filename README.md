@@ -12,13 +12,14 @@ The script supports two export types from Paprika:
 ## Usage
 
 1. Clone this repository:
+   ```bash
 
-   $ git clone https://github.com/icewall905/paprika-to-nextcloud-cookbook-converter.git
-   $ cd paprika-to-nextcloud-cookbook-converter/
+   git clone https://github.com/icewall905/paprika-to-nextcloud-cookbook-converter.git
+   cd paprika-to-nextcloud-cookbook-converter/
 
 2. Run the conversion script:
+      ```bash
 
-   $ python3 convert_paprika_to_nextcloud.py export.paprikarecipes output_folder
-
+   python3 convert_paprika_to_nextcloud.py export.paprikarecipes output_folder
 
 To complete the import, simply copy the resulting folder structure into your recipe folder in Nextcloud and let it scan.
