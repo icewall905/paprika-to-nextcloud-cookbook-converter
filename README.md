@@ -9,6 +9,10 @@ The script supports two export types from Paprika:
 * **Individual Recipe Files**: Files ending with .paprikarecipe (each is a gzip-compressed JSON file)
 * **Bulk Export File**: A single file (typically with extension .paprikarecipes) that is a zip archive containing multiple .paprikarecipe files
 
+
+
+### Before you begin, please export the .paprikarecipe file from the app on your phone or computer.
+
 ## Usage
 
 1. Clone this repository:
